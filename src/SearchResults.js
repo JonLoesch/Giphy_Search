@@ -5,8 +5,7 @@ export function SearchResults(props) {
     return null;
   }
 
-  console.log(props.results);
-
+  // Render the images in a horizontal flexbox layout
   return (
     <div className="giphy-results-container">
       {props.results.data.map(gif => (
